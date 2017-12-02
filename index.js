@@ -101,7 +101,7 @@ const TRAINING_TESTSET = TEST_SET;
 // loadDataSet(0.7, TRAINING_SET, TRAINING_TESTSET);
 
 const predictions = [];
-const k = 94;
+const k = 91;
 for (let i = 0; i < TRAINING_TESTSET.length; i += 1) {
   const neighbors = getNeighbors(TRAINING_SET, TRAINING_TESTSET[i], k);
   const result = getResponse(neighbors);
