@@ -6,7 +6,8 @@
   "author": "Helmi Satria",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "best-k": "node index_tesK_cluster.js"
   },
   "dependencies": {
     "babyparse": "^0.4.6",
